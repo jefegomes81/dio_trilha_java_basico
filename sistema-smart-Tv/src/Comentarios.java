@@ -8,15 +8,18 @@ public class Comentarios {
     * mas olha, ele tem a finalidade de somar ou  multiplicar
     * dois números
     */
+
     public int somaMultiplica (int n, int x, String m){
         int r = 0; // r é igual ao resultado
-        if (m == "M"){ // M= multiplicação
-            r= n * x;
-        }else{
+            if (m == "M"){ // M= multiplicação
+                r= n * x;
+            }else{
             // se não soma mesmo
-            r = n + x
+                r = n + x;
     }
-        return r;
+            return r;
+    }
+    public Comentarios() {
     }
     
 }
